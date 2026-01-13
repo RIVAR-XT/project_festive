@@ -1,6 +1,6 @@
 import requests
 def first_api(sender_name , recipient_name , year ):
- api_key = 'i removed it for privacy Mouadh'
+ api_key = '609256ac-746c-4801-9575-bff0fbcbfac6'
  template_id = '244d69fe-e186-40a9-8955-3187bb79a119'
 
  url = 'https://api.templated.io/v1/render'

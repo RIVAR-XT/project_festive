@@ -216,17 +216,17 @@ def thridmenustates():
 
 
 
-# constructors
-start = Button(315, 149 , 170 , 60 , firstmenustate  , 0.7 , 0.5 , 'Start' , image1)
+# construction of buttons
+start = Button(315, 149 , 170 , 60 , dummy  , 0.7 , 0.5 , 'Start' , image1)
 ex = Button(315 , 230 , 170 , 60 , exi , 0.5 , 0.3 ,'Exit' ,image1)
 im1 = Button(70, 60 , 144 , 60 , thridmenustates  , 3.85 , 1.25 , 'Start' , image1)
 im2 = Button(70, 60 , 144 , 60 , thridmenustates  , 3.85 , 1.25 , 'Start' , image2)
 im3 = Button(70, 60 , 144 , 60 , thridmenustates  , 3.85 , 1.25 , 'Start' , image3)
-back = Button(25, 450, 100, 40, firstmenustate,   .5, .3 ,'Back'  	, image1)
-next_bt= Button(675 , 450 , 100 , 40 , secondmenustate , 0.5 , 0.3 ,'Next' , image1)
-textbox= Button(59, 75, 100, 40, secondmenustate, 1,1, 'next', image1)
-textbox2= Button(59, 200, 100, 40, secondmenustate, 1, 1, 'next', image2)
-textbox3= Button(59, 300, 100, 40, secondmenustate, 1, 1, 'next', image3)
+back = Button(25 , 450 , 100 , 40 , dummy , 0.5 , 0.3 ,'Back' , image1)
+next_bt= Button(675 , 450 , 100 , 40 , inmenu , 0.5 , 0.3 ,'Next' , image1)
+textbox= Button(59, 75, 100, 40, inmenu, 1,1, 'next', image1)
+textbox2= Button(59, 200, 100, 40, inmenu, 1, 1, 'next', image2)
+textbox3= Button(59, 300, 100, 40, inmenu, 1, 1, 'next', image3)
 Done = Button(675 , 425 , 100 , 40 , thridmenustates , 0.5 , 0.3 ,'Done' , image1)
 
 

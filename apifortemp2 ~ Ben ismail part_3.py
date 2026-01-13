@@ -6,7 +6,7 @@ import requests
 
 
 def second_api(sender_name , recipient_name , year):
-  api_key = 'i removed it for privacy Mouadh'
+  api_key = '609256ac-746c-4801-9575-bff0fbcbfac6'
   template_id = '6c65e8b2-b87e-4428-8e58-3e9ba827abd2'
 
   url = 'https://api.templated.io/v1/render'

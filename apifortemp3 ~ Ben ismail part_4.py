@@ -1,7 +1,7 @@
 import requests
 
 def third_api(sender_name , recipient_name , year):
-    api_key = 'i removed it for privacy Mouadh'
+    api_key = '609256ac-746c-4801-9575-bff0fbcbfac6'
     template_id = '3e09ed3e-d8eb-44b1-929d-20796bc8eecf'
 
     url = 'https://api.templated.io/v1/render'
